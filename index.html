@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Proxy Server</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Proxy Server</h2>
+    <div class="textbox-container">
+      <input type="text" placeholder="Type or paste text here">
+      <button onclick="copyText(this)">Copy to Clipboard</button>
+    </div>
+    <!-- Repeat the textbox-container div 49 more times -->
+    <!-- You can also generate these dynamically using JavaScript if needed -->
+
+    <button onclick="addTextBox()">Add TextBox</button>
+    <button onclick="exportData()">Export Data</button>
+    <input type="file" id="importFile" style="display: none;" onchange="importData(event)">
+    <button onclick="document.getElementById('importFile').click()">Import Data</button>
+    <button id="btnd" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </div>
+
+</body>
+<footer>
+  <div id="copyright">
+    <p>© 2023 Your Company. All rights reserved.</p>
+    <div id="nd">
+      <h3>Proxy Server</h3>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
